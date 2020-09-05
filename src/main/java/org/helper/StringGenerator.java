@@ -42,27 +42,4 @@ public class StringGenerator {
       throw new StringGeneratorException(e.getMessage());
     }
   }
-
-/*  public String generateString(Scenario scenario, int length) {
-    try {
-      switch (scenario) {
-        case NULL:
-          return null;
-        case EMPTY:
-          return "  ";
-        case VALID:
-          return generex.random(length);
-        case SHORT_LENGTH:
-          return generex.random(length, length).substring(1);
-        case SPECIAL_CHARACTER:
-          return generex.random(length).substring(1).concat("#");
-        case GREATER_LENGTH:
-          return generex.random(length).concat("R");
-        default:
-          throw new StringGeneratorException("cannot found valid scenario");
-      }
-    } catch (Exception e) {
-      throw new StringGeneratorException(e.getMessage());
-    }
-  }*/
 }
