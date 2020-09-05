@@ -20,8 +20,9 @@ Here is the sample Java code demonstrating library usage:
 # Scenarios
 
 1. Generate a valid string from regex.
-2. Generate a null string.
+2. Generate a string greater than max length.
 3. Generate a string shorter than min length.
-4. Generate a string with special character in it.
-5. Generate a empty spaced string.
-6. Generate a string greater than max length.
+4. Generate a empty spaced string.
+5. Generate a null string.
+6. Generate a string with special character in it.
+
