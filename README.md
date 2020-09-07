@@ -7,14 +7,14 @@ A Java library for generating test String that match a given regular expression 
 
 Here is the sample Java code demonstrating library usage:
 ```
-    StringGenerator sg = new StringGenerator("[0-3]([a-c]|[e-g]{1,2})", 2, 3); //(regex,minLength,maxLength)
+    StringGenerator sg = new StringGenerator("[a-zA-Z0-9]{2,3}", 2, 3); //(regex,minLength,maxLength)
     
-    sg.generateString(Scenario.VALID);              // 1fe
-    sg.generateString(Scenario.GREATER_LENGTH);     // 1feR
-    sg.generateString(Scenario.SHORT_LENGTH);       // 1
+    sg.generateString(Scenario.VALID);              // a8s
+    sg.generateString(Scenario.GREATER_LENGTH);     // s4cRH
+    sg.generateString(Scenario.SHORT_LENGTH);       // a
     sg.generateString(Scenario.EMPTY);              // 
     sg.generateString(Scenario.NULL);               // null
-    sg.generateString(Scenario.SPECIAL_CHARACTER);  // 1f#
+    sg.generateString(Scenario.SPECIAL_CHARACTER);  // c8#
             
 ```
 # Scenarios
