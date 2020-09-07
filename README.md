@@ -26,3 +26,4 @@ Here is the sample Java code demonstrating library usage:
 5. Generate a null string.
 6. Generate a string with special character in it.
 
+> Ref https://github.com/mifmif/Generex#:~:text=A%20Java%20library%20for%20generating%20String%20that%20match%20a%20given,dk%2F~amoeller%2Fautomaton%2F.
